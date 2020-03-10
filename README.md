@@ -1,2 +1,3 @@
-# ql.gongbushang.com
-back end of gongbushang.com
+# Strapi application
+
+A quick description of your strapi application
