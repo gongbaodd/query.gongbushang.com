@@ -2,16 +2,13 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "mongoose",
+      "connector": "bookshelf",
       "settings": {
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}"
+        "client": "sqlite",
+        "filename": ".tmp/data.db"
       },
       "options": {
-        "authenticationDatabase": "${process.env.DATABASE_NAME || 'strapi'}"
+        "useNullAsDefault": true
       }
     }
   }
