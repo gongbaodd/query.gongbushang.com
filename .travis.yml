@@ -1,6 +1,10 @@
 language: node_js
 
+services:
+  - docker
+
 deploy:
+  provider: script
   script:
     - "yarn deploy:coding"
   skip_cleanup: true
