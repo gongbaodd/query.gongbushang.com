@@ -59,6 +59,7 @@
     "build": "strapi build",
     "strapi": "strapi",
     "audit:ci": "audit-ci -m -a 1065 -a 1469",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "test": "echo 'no test'"
   }
 }
