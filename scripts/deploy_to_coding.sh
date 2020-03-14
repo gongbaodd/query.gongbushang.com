@@ -1,4 +1,3 @@
-cd ./public
 git config user.name "$CO_NAME"
 git config user.email "gongbaodd@qq.com"
 git init
