@@ -6,7 +6,7 @@ services:
 deploy:
   provider: script
   script:
-    - "yarn && docker build"
+    - "yarn && docker build ."
   skip_cleanup: true
 
   on:
