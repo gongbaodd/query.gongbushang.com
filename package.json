@@ -57,7 +57,6 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "build:docker": "docker build .",
     "deploy": "sh scripts/docker_push.sh",
     "strapi": "strapi",
     "audit:ci": "audit-ci -m -a 1065 -a 1469",
