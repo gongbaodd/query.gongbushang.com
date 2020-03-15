@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  query:
+    image: gongbaodd-docker.pkg.coding.net/query_gongbushang_com/docker/strapi:latest
+    restart: always
+    hostname: "query.gongbushang.com"
+    ports:
+      - 1337:1337
+    volumes:
+      - "./.tmp"

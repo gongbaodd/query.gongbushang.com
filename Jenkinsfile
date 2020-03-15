@@ -17,7 +17,7 @@ pipeline {
         script {
           docker.image('strapi/base').withRun {
             docker.image("strapi/base").inside {
-              sh 'node -v && yarn --version && yarn install && yarn build'
+              sh 'node -v && yarn --version && yarn install && NODE_ENV=production yarn build'
             }
           }
         }
