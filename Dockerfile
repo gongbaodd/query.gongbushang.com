@@ -2,7 +2,7 @@ FROM strapi/base
 
 EXPOSE 1337
 
-VOLUME [ "/app/.tmp" ]
+ENV NODE_ENV=production
 
 WORKDIR /app
 COPY . /app
