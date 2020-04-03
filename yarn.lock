@@ -3601,19 +3601,17 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+escape-string-regexp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha1-owME6Z2qMuI7L9IPUbq9B8/8o0Q=
+  dependencies:
+    get-stdin "^6.0.0"
 
 eslint-config-prettier@6.10.1:
   version "6.10.1"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.10.1.tgz#129ef9ec575d5ddc0e269667bf09defcd898642a"
   integrity sha512-svTy6zh1ecQojvpbJSgH3aei/Rt7C6i090l5f2WQ4aB05lYHeZIR1qL4wZyyILTbtmnbHP5Yn8MrsOJMGa8RkQ==
-
-escape-string-regexp@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
-  integrity sha1-owME6Z2qMuI7L9IPUbq9B8/8o0Q=
-
-  dependencies:
-    get-stdin "^6.0.0"
 
 eslint-scope@^4.0.3:
   version "4.0.3"
@@ -9536,6 +9534,27 @@ strapi-helper-plugin@3.0.0-beta.19.3:
     styled-components "^5.0.0"
     whatwg-fetch "^2.0.3"
 
+strapi-helper-plugin@3.0.0-next.48:
+  version "3.0.0-next.48"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.0.0-next.48.tgz#8b7e86550a029a7fde17c662f61a4a1ba6022406"
+  integrity sha512-Z0nRdWtd1fQmB+Sk5q+Y2rfq9au1B5uCenYZDjoFqskWP0me82X1jZ+hhrqJja9j/0ovMWGa+EVOzjM7i0H+mA==
+  dependencies:
+    bootstrap "^4.3.1"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "^4.17.5"
+    moment "^2.16.0"
+    react "^16.9.0"
+    react-datetime "^2.16.3"
+    react-dom "^16.9.0"
+    react-intl "^2.8.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "^8.0.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^2.0.3"
+
 strapi-hook-mongoose@^3.0.0-beta.17.8:
   version "3.0.0-beta.17.8"
   resolved "https://registry.npm.taobao.org/strapi-hook-mongoose/download/strapi-hook-mongoose-3.0.0-beta.17.8.tgz#2803703f9c52b8625767a0cfdedc8940dcbe80c1"
@@ -9616,10 +9635,10 @@ strapi-plugin-email@3.0.0-beta.19.3:
     strapi-provider-email-sendmail "3.0.0-beta.19.3"
     strapi-utils "3.0.0-beta.19.3"
 
-strapi-plugin-upload@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-plugin-upload/download/strapi-plugin-upload-3.0.0-beta.19.3.tgz#07b3258c6818de5f4df0f73edb8d440cf182a65e"
-  integrity sha1-B7MljGgY3l9N8Pc+241EDPGCpl4=
+strapi-plugin-upload@3.0.0-next.48:
+  version "3.0.0-next.48"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.0.0-next.48.tgz#8f7eff93201ae8e14e20503c6a94ca3b186646ca"
+  integrity sha512-f78jmHuRpii7ewhzeHP1hTsYpE3ELe/Nqsu2/mKzjHU3BB+qbzVzsSQ8G3Xbaz87e52gEKByIf0HYZQ4d+MVVQ==
   dependencies:
     immutable "^3.8.2"
     invariant "^2.2.1"
@@ -9633,9 +9652,9 @@ strapi-plugin-upload@3.0.0-beta.19.3:
     react-router-dom "^5.0.0"
     react-transition-group "^2.5.0"
     reactstrap "^5.0.0"
-    strapi-helper-plugin "3.0.0-beta.19.3"
-    strapi-provider-upload-local "3.0.0-beta.19.3"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-helper-plugin "3.0.0-next.48"
+    strapi-provider-upload-local "3.0.0-next.48"
+    strapi-utils "3.0.0-next.48"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -9676,10 +9695,10 @@ strapi-provider-email-sendmail@3.0.0-beta.19.3:
     lodash "^4.17.11"
     sendmail "^1.2.0"
 
-strapi-provider-upload-local@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-provider-upload-local/download/strapi-provider-upload-local-3.0.0-beta.19.3.tgz#9af19fb31240111139dfe0f8a686c2fc7fe2f7bc"
-  integrity sha1-mvGfsxJAERE53+D4pobC/H/i97w=
+strapi-provider-upload-local@3.0.0-next.48:
+  version "3.0.0-next.48"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.0.0-next.48.tgz#993b362d437c79934655acf7d336007d4e7b38b6"
+  integrity sha512-a6n0BbLEDcUeUpm6qhAzra6JCCElMINbGa7TiGMW9lnXlwAi3r0Lx6p9R1KgxWSj9XRSFdGtV9zpAw43fmPNAg==
 
 strapi-utils@3.0.0-beta.17.8:
   version "3.0.0-beta.17.8"
@@ -9710,6 +9729,19 @@ strapi-utils@3.0.0-beta.19.5:
   version "3.0.0-beta.19.5"
   resolved "https://registry.npm.taobao.org/strapi-utils/download/strapi-utils-3.0.0-beta.19.5.tgz#6041baf608d26e61e1ba226336b1d020014ed66a"
   integrity sha1-YEG69gjSbmHhuiJjNrHQIAFO1mo=
+  dependencies:
+    "@sindresorhus/slugify" "^0.11.0"
+    date-fns "^2.8.1"
+    lodash "4.17.12"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+    yup "0.28.1"
+
+strapi-utils@3.0.0-next.48:
+  version "3.0.0-next.48"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-next.48.tgz#fa163e8f6aba8bcc183c67cca7a56f144564d0de"
+  integrity sha512-NoJweYHVACm6NzufFuUTJPZRehWZXwpl0dCEwU60Id3VsoFxcrId5zXqNjUM5re4c7MYMyBJVgaHNS3RxlYFvA==
   dependencies:
     "@sindresorhus/slugify" "^0.11.0"
     date-fns "^2.8.1"
