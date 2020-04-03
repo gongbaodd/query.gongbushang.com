@@ -3601,19 +3601,17 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+escape-string-regexp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha1-owME6Z2qMuI7L9IPUbq9B8/8o0Q=
+  dependencies:
+    get-stdin "^6.0.0"
 
 eslint-config-prettier@6.10.1:
   version "6.10.1"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.10.1.tgz#129ef9ec575d5ddc0e269667bf09defcd898642a"
   integrity sha512-svTy6zh1ecQojvpbJSgH3aei/Rt7C6i090l5f2WQ4aB05lYHeZIR1qL4wZyyILTbtmnbHP5Yn8MrsOJMGa8RkQ==
-
-escape-string-regexp@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
-  integrity sha1-owME6Z2qMuI7L9IPUbq9B8/8o0Q=
-
-  dependencies:
-    get-stdin "^6.0.0"
 
 eslint-scope@^4.0.3:
   version "4.0.3"
@@ -9423,10 +9421,10 @@ strapi-connector-bookshelf@3.0.0-beta.19.3:
     rimraf "3.0.0"
     strapi-utils "3.0.0-beta.19.3"
 
-strapi-connector-mongoose@^3.0.0-beta.19.5:
+strapi-connector-mongoose@3.0.0-beta.19.5:
   version "3.0.0-beta.19.5"
-  resolved "https://registry.npm.taobao.org/strapi-connector-mongoose/download/strapi-connector-mongoose-3.0.0-beta.19.5.tgz#a4bb7f58e1d8bce6745da2e1f7e186f619bbd670"
-  integrity sha1-pLt/WOHYvOZ0XaLh9+GG9hm71nA=
+  resolved "https://registry.yarnpkg.com/strapi-connector-mongoose/-/strapi-connector-mongoose-3.0.0-beta.19.5.tgz#a4bb7f58e1d8bce6745da2e1f7e186f619bbd670"
+  integrity sha512-SQ1kP49IC7UlX20DtnFFP43IDG36Krsz0oZBPqsq9uRHZh8I1baRHCen7Xun7q0mkhwAcJi7t6TFpi8JxgS7oQ==
   dependencies:
     lodash "^4.17.11"
     mongoose "5.8.0"
@@ -9536,10 +9534,10 @@ strapi-helper-plugin@3.0.0-beta.19.3:
     styled-components "^5.0.0"
     whatwg-fetch "^2.0.3"
 
-strapi-hook-mongoose@^3.0.0-beta.17.8:
+strapi-hook-mongoose@3.0.0-beta.17.8:
   version "3.0.0-beta.17.8"
-  resolved "https://registry.npm.taobao.org/strapi-hook-mongoose/download/strapi-hook-mongoose-3.0.0-beta.17.8.tgz#2803703f9c52b8625767a0cfdedc8940dcbe80c1"
-  integrity sha1-KANwP5xSuGJXZ6DP3tyJQNy+gME=
+  resolved "https://registry.yarnpkg.com/strapi-hook-mongoose/-/strapi-hook-mongoose-3.0.0-beta.17.8.tgz#2803703f9c52b8625767a0cfdedc8940dcbe80c1"
+  integrity sha512-VYTr4sCSGk7T12LaOQHH0lm257c2N61opXl4IkZjRSg13khjNufdnBxahti7TcsDs7SHHiswbADRYQaEFOwQ1w==
   dependencies:
     lodash "^4.17.11"
     mongoose "5.7.4"
