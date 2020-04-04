@@ -9421,10 +9421,10 @@ strapi-connector-bookshelf@3.0.0-beta.19.3:
     rimraf "3.0.0"
     strapi-utils "3.0.0-beta.19.3"
 
-strapi-connector-mongoose@^3.0.0-beta.19.5:
+strapi-connector-mongoose@3.0.0-beta.19.5:
   version "3.0.0-beta.19.5"
-  resolved "https://registry.npm.taobao.org/strapi-connector-mongoose/download/strapi-connector-mongoose-3.0.0-beta.19.5.tgz#a4bb7f58e1d8bce6745da2e1f7e186f619bbd670"
-  integrity sha1-pLt/WOHYvOZ0XaLh9+GG9hm71nA=
+  resolved "https://registry.yarnpkg.com/strapi-connector-mongoose/-/strapi-connector-mongoose-3.0.0-beta.19.5.tgz#a4bb7f58e1d8bce6745da2e1f7e186f619bbd670"
+  integrity sha512-SQ1kP49IC7UlX20DtnFFP43IDG36Krsz0oZBPqsq9uRHZh8I1baRHCen7Xun7q0mkhwAcJi7t6TFpi8JxgS7oQ==
   dependencies:
     lodash "^4.17.11"
     mongoose "5.8.0"
@@ -9534,10 +9534,10 @@ strapi-helper-plugin@3.0.0-beta.19.3:
     styled-components "^5.0.0"
     whatwg-fetch "^2.0.3"
 
-strapi-hook-mongoose@^3.0.0-beta.17.8:
+strapi-hook-mongoose@3.0.0-beta.17.8:
   version "3.0.0-beta.17.8"
-  resolved "https://registry.npm.taobao.org/strapi-hook-mongoose/download/strapi-hook-mongoose-3.0.0-beta.17.8.tgz#2803703f9c52b8625767a0cfdedc8940dcbe80c1"
-  integrity sha1-KANwP5xSuGJXZ6DP3tyJQNy+gME=
+  resolved "https://registry.yarnpkg.com/strapi-hook-mongoose/-/strapi-hook-mongoose-3.0.0-beta.17.8.tgz#2803703f9c52b8625767a0cfdedc8940dcbe80c1"
+  integrity sha512-VYTr4sCSGk7T12LaOQHH0lm257c2N61opXl4IkZjRSg13khjNufdnBxahti7TcsDs7SHHiswbADRYQaEFOwQ1w==
   dependencies:
     lodash "^4.17.11"
     mongoose "5.7.4"
