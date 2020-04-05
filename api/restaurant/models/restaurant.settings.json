@@ -16,8 +16,14 @@
       "unique": true
     },
     "categories": {
-      "via": "restaurants",
-      "collection": "category"
+      "collection": "category",
+      "via": "restaurants"
+    },
+    "restaurant_hours": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hours.hours-of-operations",
+      "required": true
     }
   }
 }
