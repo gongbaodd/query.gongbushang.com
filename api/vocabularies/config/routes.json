@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vocabularies",
+      "handler": "vocabularies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vocabularies/count",
+      "handler": "vocabularies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vocabularies/:id",
+      "handler": "vocabularies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vocabularies",
+      "handler": "vocabularies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vocabularies/:id",
+      "handler": "vocabularies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vocabularies/:id",
+      "handler": "vocabularies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

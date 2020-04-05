@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "vocabularies",
+  "info": {
+    "name": "vocabularies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "word": {
+      "type": "string"
+    },
+    "Chinese": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
