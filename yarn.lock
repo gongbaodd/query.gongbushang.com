@@ -813,10 +813,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@buffetjs/core@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/@buffetjs/core/download/@buffetjs/core-3.0.0.tgz?cache=0&sync_timestamp=1583841043149&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40buffetjs%2Fcore%2Fdownload%2F%40buffetjs%2Fcore-3.0.0.tgz#457d5a55246f2b0c7edfc85173b46e97b0348b42"
-  integrity sha1-RX1aVSRvKwx+38hRc7Rul7A0i0I=
+"@buffetjs/core@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/@buffetjs/core/download/@buffetjs/core-3.0.1.tgz#d508415a34d31f187008245b2e209e242c27e019"
+  integrity sha1-1QhBWjTTHxhwCCRbLiCeJCwn4Bk=
   dependencies:
     "@buffetjs/hooks" "3.0.0"
     "@buffetjs/icons" "3.0.0"
@@ -832,12 +832,12 @@
     react-dates "^21.5.1"
     react-moment-proptypes "^1.7.0"
 
-"@buffetjs/custom@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/@buffetjs/custom/download/@buffetjs/custom-3.0.0.tgz?cache=0&sync_timestamp=1583841074355&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40buffetjs%2Fcustom%2Fdownload%2F%40buffetjs%2Fcustom-3.0.0.tgz#193010fc111be51f1bd6f47e6f3f32d6fb61f9b5"
-  integrity sha1-GTAQ/BEb5R8b1vR+bz8y1vth+bU=
+"@buffetjs/custom@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/@buffetjs/custom/download/@buffetjs/custom-3.0.1.tgz#41ced07dc35e0442ecc4ec263e304b181f576e8e"
+  integrity sha1-Qc7QfcNeBELsxOwmPjBLGB9Xbo4=
   dependencies:
-    "@buffetjs/core" "3.0.0"
+    "@buffetjs/core" "3.0.1"
     "@buffetjs/styles" "3.0.0"
     "@buffetjs/utils" "3.0.0"
     moment "^2.24.0"
@@ -1181,11 +1181,6 @@
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/@types/asap/download/@types/asap-2.0.0.tgz#d529e9608c83499a62ae08c871c5e62271aa2963"
   integrity sha1-1SnpYIyDSZpirgjIccXmInGqKWM=
-
-"@types/bluebird@^3.5.26":
-  version "3.5.30"
-  resolved "https://registry.npm.taobao.org/@types/bluebird/download/@types/bluebird-3.5.30.tgz?cache=0&sync_timestamp=1583173243738&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fbluebird%2Fdownload%2F%40types%2Fbluebird-3.5.30.tgz#ee034a0eeea8b84ed868b1aa60d690b08a6cfbc5"
-  integrity sha1-7gNKDu6ouE7YaLGqYNaQsIps+8U=
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -1931,7 +1926,7 @@ bluebird@3.5.1:
   resolved "https://registry.npm.taobao.org/bluebird/download/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
   integrity sha1-2VUfnemPH82h5oPRfukaBgLuLrk=
 
-bluebird@^3.5.0, bluebird@^3.5.4, bluebird@^3.5.5, bluebird@^3.7.0:
+bluebird@^3.5.0, bluebird@^3.5.5, bluebird@^3.7.0:
   version "3.7.2"
   resolved "https://registry.npm.taobao.org/bluebird/download/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
@@ -2528,11 +2523,6 @@ color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.npm.taobao.org/color-name/download/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
-
-colorette@1.0.7:
-  version "1.0.7"
-  resolved "https://registry.npm.taobao.org/colorette/download/colorette-1.0.7.tgz#7adf43c445ee63a541b4a4aef7d13f03df1e0cc0"
-  integrity sha1-et9DxEXuY6VBtKSu99E/A98eDMA=
 
 colorette@1.1.0:
   version "1.1.0"
@@ -4338,11 +4328,6 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "https://registry.npm.taobao.org/get-value/download/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
-getopts@2.2.3:
-  version "2.2.3"
-  resolved "https://registry.npm.taobao.org/getopts/download/getopts-2.2.3.tgz#11d229775e2ec2067ed8be6fcc39d9b4bf39cf7d"
-  integrity sha1-EdIpd14uwgZ+2L5vzDnZtL85z30=
-
 getopts@2.2.5:
   version "2.2.5"
   resolved "https://registry.npm.taobao.org/getopts/download/getopts-2.2.5.tgz#67a0fe471cacb9c687d817cab6450b96dde8313b"
@@ -5454,13 +5439,6 @@ isstream@~0.1.2:
   resolved "https://registry.npm.taobao.org/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-joi-json@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npm.taobao.org/joi-json/download/joi-json-2.1.0.tgz#4829cca91e531d19c4cad1205a08d61549a0c051"
-  integrity sha1-SCnMqR5THRnEytEgWgjWFUmgwFE=
-  dependencies:
-    vandium-utils "^1.1.0"
-
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -5654,29 +5632,6 @@ knex@0.19.5:
     tildify "2.0.0"
     uuid "^3.3.3"
     v8flags "^3.1.3"
-
-knex@^0.16.5:
-  version "0.16.5"
-  resolved "https://registry.npm.taobao.org/knex/download/knex-0.16.5.tgz#8ba3806289a5d543dd42ed21420a31c578476993"
-  integrity sha1-i6OAYoml1UPdQu0hQgoxxXhHaZM=
-  dependencies:
-    "@babel/polyfill" "^7.4.3"
-    "@types/bluebird" "^3.5.26"
-    bluebird "^3.5.4"
-    colorette "1.0.7"
-    commander "^2.20.0"
-    debug "4.1.1"
-    getopts "2.2.3"
-    inherits "~2.0.3"
-    interpret "^1.2.0"
-    liftoff "3.1.0"
-    lodash "^4.17.11"
-    mkdirp "^0.5.1"
-    pg-connection-string "2.0.0"
-    tarn "^1.1.5"
-    tildify "1.2.0"
-    uuid "^3.3.2"
-    v8flags "^3.1.2"
 
 koa-body@^4.1.0:
   version "4.1.1"
@@ -6111,11 +6066,6 @@ lodash.tonumber@^4.0.3:
   resolved "https://registry.npm.taobao.org/lodash.tonumber/download/lodash.tonumber-4.0.3.tgz#0b96b31b35672793eb7f5a63ee791f1b9e9025d9"
   integrity sha1-C5azGzVnJ5Prf1pj7nkfG56QJdk=
 
-lodash@4.17.11:
-  version "4.17.11"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.11.tgz?cache=0&sync_timestamp=1571657272199&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha1-s56mIp72B+zYniyN8SU2iRysm40=
-
 lodash@4.17.12:
   version "4.17.12"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.12.tgz?cache=0&sync_timestamp=1571657272199&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.12.tgz#a712c74fdc31f7ecb20fe44f157d802d208097ef"
@@ -6495,15 +6445,6 @@ moment-timezone@^0.5.21, moment-timezone@^0.5.25:
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha1-DQVdU/UFKqZTyfbraLtdEr9cK1s=
 
-mongodb@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.3.2.tgz#ff086b5f552cf07e24ce098694210f3d42d668b2"
-  integrity sha1-/whrX1Us8H4kzgmGlCEPPULWaLI=
-  dependencies:
-    bson "^1.1.1"
-    require_optional "^1.0.1"
-    safe-buffer "^5.1.2"
-
 mongodb@3.3.5:
   version "3.3.5"
   resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.3.5.tgz#38d531013afede92b0dd282e3b9f3c08c9bdff3b"
@@ -6542,23 +6483,6 @@ mongoose-long@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npm.taobao.org/mongoose-long/download/mongoose-long-0.2.1.tgz#2d4f560430338bfbe7129e31a543c497a2d6a4db"
   integrity sha1-LU9WBDAzi/vnEp4xpUPEl6LWpNs=
-
-mongoose@5.7.4:
-  version "5.7.4"
-  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.7.4.tgz#b6a77a9217dace917ab028fa5dc72f400f2faf4b"
-  integrity sha1-tqd6khfazpF6sCj6XccvQA8vr0s=
-  dependencies:
-    bson "~1.1.1"
-    kareem "2.3.1"
-    mongodb "3.3.2"
-    mongoose-legacy-pluralize "1.0.2"
-    mpath "0.6.0"
-    mquery "3.2.2"
-    ms "2.1.2"
-    regexp-clone "1.0.0"
-    safe-buffer "5.1.2"
-    sift "7.0.1"
-    sliced "1.0.1"
 
 mongoose@5.8.0:
   version "5.8.0"
@@ -7327,11 +7251,6 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/performance-now/download/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
-
-pg-connection-string@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/pg-connection-string/download/pg-connection-string-2.0.0.tgz?cache=0&sync_timestamp=1584681155325&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpg-connection-string%2Fdownload%2Fpg-connection-string-2.0.0.tgz#3eefe5997e06d94821e4d502e42b6a1c73f8df82"
-  integrity sha1-Pu/lmX4G2Ugh5NUC5CtqHHP434I=
 
 pg-connection-string@2.1.0:
   version "2.1.0"
@@ -9138,10 +9057,10 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^1.6.0"
 
-strapi-admin@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-admin/download/strapi-admin-3.0.0-beta.19.3.tgz#875edea332b9f8c4ffda2a51135728add4545d6c"
-  integrity sha1-h17eozK5+MT/2ipRE1cordRUXWw=
+strapi-admin@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-admin/download/strapi-admin-3.0.0-beta.19.5.tgz#2239f282a2e66c063f9f8c230519f6d05fda37a7"
+  integrity sha1-IjnygqLmbAY/n4wjBRn20F/aN6c=
   dependencies:
     "@babel/core" "^7.4.3"
     "@babel/plugin-proposal-async-generator-functions" "^7.2.0"
@@ -9153,8 +9072,8 @@ strapi-admin@3.0.0-beta.19.3:
     "@babel/preset-env" "^7.4.3"
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.3"
-    "@buffetjs/core" "3.0.0"
-    "@buffetjs/custom" "3.0.0"
+    "@buffetjs/core" "3.0.1"
+    "@buffetjs/custom" "3.0.1"
     "@buffetjs/hooks" "3.0.0"
     "@buffetjs/icons" "3.0.0"
     "@buffetjs/styles" "3.0.0"
@@ -9216,8 +9135,8 @@ strapi-admin@3.0.0-beta.19.3:
     reselect "^3.0.1"
     sanitize.css "^4.1.0"
     shelljs "^0.7.8"
-    strapi-helper-plugin "3.0.0-beta.19.3"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-helper-plugin "3.0.0-beta.19.5"
+    strapi-utils "3.0.0-beta.19.5"
     style-loader "^0.23.1"
     styled-components "^5.0.0"
     terser-webpack-plugin "^1.2.3"
@@ -9241,41 +9160,44 @@ strapi-connector-mongoose@3.0.0-beta.19.5:
     pluralize "^7.0.0"
     strapi-utils "3.0.0-beta.19.5"
 
-strapi-database@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-database/download/strapi-database-3.0.0-beta.19.3.tgz#95b2a996d655fb0c3198b3693605abfc517dd789"
-  integrity sha1-lbKpltZV+wwxmLNpNgWr/FF914k=
+strapi-database@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-database/download/strapi-database-3.0.0-beta.19.5.tgz#8b5ad2f3760238c03e35ac88aee8092457b4fb8c"
+  integrity sha1-i1rS83YCOMA+NayIrugJJFe0+4w=
   dependencies:
     lodash "^4.17.11"
     verror "^1.10.0"
 
-strapi-generate-api@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-generate-api/download/strapi-generate-api-3.0.0-beta.19.3.tgz#0acda15d35b4aac075307af24f97e262e473d213"
-  integrity sha1-Cs2hXTW0qsB1MHryT5fiYuRz0hM=
+strapi-generate-api@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-generate-api/download/strapi-generate-api-3.0.0-beta.19.5.tgz#3833e5437b2e76c2801c622b0544791afdf3f3e4"
+  integrity sha1-ODPlQ3sudsKAHGIrBUR5Gv3z8+Q=
   dependencies:
     lodash "^4.17.11"
     pluralize "^7.0.0"
+    strapi-utils "3.0.0-beta.19.5"
 
-strapi-generate-controller@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-generate-controller/download/strapi-generate-controller-3.0.0-beta.19.3.tgz#3384d5a3d18d3c690ab2fb9f2e0d7633a4055bc0"
-  integrity sha1-M4TVo9GNPGkKsvufLg12M6QFW8A=
+strapi-generate-controller@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-generate-controller/download/strapi-generate-controller-3.0.0-beta.19.5.tgz#fafaaca6f54c2495bbc7c2e5e4de312f8dada8c5"
+  integrity sha1-+vqspvVMJJW7x8Ll5N4xL42tqMU=
   dependencies:
     lodash "^4.17.11"
+    strapi-utils "3.0.0-beta.19.5"
 
-strapi-generate-model@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-generate-model/download/strapi-generate-model-3.0.0-beta.19.3.tgz#5cff7b888a4e66c1450633a676c51e953b976375"
-  integrity sha1-XP97iIpOZsFFBjOmdsUelTuXY3U=
+strapi-generate-model@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-generate-model/download/strapi-generate-model-3.0.0-beta.19.5.tgz#3317e34594f5839857d98c173d905a84e3db0d47"
+  integrity sha1-MxfjRZT1g5hX2YwXPZBahOPbDUc=
   dependencies:
     lodash "^4.17.11"
     pluralize "^7.0.0"
+    strapi-utils "3.0.0-beta.19.5"
 
-strapi-generate-new@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-generate-new/download/strapi-generate-new-3.0.0-beta.19.3.tgz#41e2b61675b56e96b1742455ee8afd637687581f"
-  integrity sha1-QeK2FnW1bpaxdCRV7or9Y3aHWB8=
+strapi-generate-new@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-generate-new/download/strapi-generate-new-3.0.0-beta.19.5.tgz#24553c1cfa41807024dbafa3175baef7338f91f5"
+  integrity sha1-JFU8HPpBgHAk26+jF1uu9zOPkfU=
   dependencies:
     "@sentry/node" "^5.7.1"
     chalk "^2.4.2"
@@ -9288,43 +9210,46 @@ strapi-generate-new@3.0.0-beta.19.3:
     ora "^3.4.0"
     uuid "^3.3.2"
 
-strapi-generate-plugin@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-generate-plugin/download/strapi-generate-plugin-3.0.0-beta.19.3.tgz#3a15602d403fd5f0de0e5c205c3f2cf008391031"
-  integrity sha1-OhVgLUA/1fDeDlwgXD8s8Ag5EDE=
+strapi-generate-plugin@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-generate-plugin/download/strapi-generate-plugin-3.0.0-beta.19.5.tgz#564eeb62dc0803f0e1d51e45c3afcf798be233eb"
+  integrity sha1-Vk7rYtwIA/Dh1R5Fw6/PeYviM+s=
   dependencies:
     fs-extra "^8.0.1"
     lodash "^4.17.11"
+    strapi-utils "3.0.0-beta.19.5"
 
-strapi-generate-policy@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-generate-policy/download/strapi-generate-policy-3.0.0-beta.19.3.tgz#27fbecc01b414ccdc60ed7440dba9dbcf3c8b91d"
-  integrity sha1-J/vswBtBTM3GDtdEDbqdvPPIuR0=
+strapi-generate-policy@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-generate-policy/download/strapi-generate-policy-3.0.0-beta.19.5.tgz#4082bfea046d012623cef66039dae0b54be74d6c"
+  integrity sha1-QIK/6gRtASYjzvZgOdrgtUvnTWw=
   dependencies:
     lodash "^4.17.11"
+    strapi-utils "3.0.0-beta.19.5"
 
-strapi-generate-service@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-generate-service/download/strapi-generate-service-3.0.0-beta.19.3.tgz#4f5adad56ceb3c2816ba910786d12f2d7a708c88"
-  integrity sha1-T1ra1WzrPCgWupEHhtEvLXpwjIg=
+strapi-generate-service@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-generate-service/download/strapi-generate-service-3.0.0-beta.19.5.tgz#4697f8bd51e81565f1447b63d30bf3a1fbb79456"
+  integrity sha1-Rpf4vVHoFWXxRHtj0wvzofu3lFY=
   dependencies:
     lodash "^4.17.11"
+    strapi-utils "3.0.0-beta.19.5"
 
-strapi-generate@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-generate/download/strapi-generate-3.0.0-beta.19.3.tgz#5097506518ff09a9270427159e23130b6a16be4e"
-  integrity sha1-UJdQZRj/CaknBCcVniMTC2oWvk4=
+strapi-generate@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-generate/download/strapi-generate-3.0.0-beta.19.5.tgz#6a434a668104945d4385721c1ecdd12655ae6c51"
+  integrity sha1-akNKZoEElF1DhXIcHs3RJlWubFE=
   dependencies:
     async "^2.6.2"
     fs-extra "^8.0.1"
     lodash "^4.17.11"
     reportback "^2.0.2"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-utils "3.0.0-beta.19.5"
 
-strapi-helper-plugin@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-helper-plugin/download/strapi-helper-plugin-3.0.0-beta.19.3.tgz#f35c93b8f4e89c1e486b153f89e3e741df4681eb"
-  integrity sha1-81yTuPTonB5IaxU/iePnQd9Gges=
+strapi-helper-plugin@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-helper-plugin/download/strapi-helper-plugin-3.0.0-beta.19.5.tgz#0fef9f24bf21b9b177b446be7a3c3a35b327b05c"
+  integrity sha1-D++fJL8hubF3tEa+ejw6NbMnsFw=
   dependencies:
     bootstrap "^4.3.1"
     classnames "^2.2.5"
@@ -9342,22 +9267,10 @@ strapi-helper-plugin@3.0.0-beta.19.3:
     styled-components "^5.0.0"
     whatwg-fetch "^2.0.3"
 
-strapi-hook-mongoose@3.0.0-beta.17.8:
-  version "3.0.0-beta.17.8"
-  resolved "https://registry.yarnpkg.com/strapi-hook-mongoose/-/strapi-hook-mongoose-3.0.0-beta.17.8.tgz#2803703f9c52b8625767a0cfdedc8940dcbe80c1"
-  integrity sha512-VYTr4sCSGk7T12LaOQHH0lm257c2N61opXl4IkZjRSg13khjNufdnBxahti7TcsDs7SHHiswbADRYQaEFOwQ1w==
-  dependencies:
-    lodash "^4.17.11"
-    mongoose "5.7.4"
-    mongoose-float "^1.0.4"
-    mongoose-long "^0.2.1"
-    pluralize "^7.0.0"
-    strapi-utils "3.0.0-beta.17.8"
-
-strapi-plugin-content-manager@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-plugin-content-manager/download/strapi-plugin-content-manager-3.0.0-beta.19.3.tgz#a6fe080bac0a4379c1da98b1a23abb0c73a49f1b"
-  integrity sha1-pv4IC6wKQ3nB2pixojq7DHOknxs=
+strapi-plugin-content-manager@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-plugin-content-manager/download/strapi-plugin-content-manager-3.0.0-beta.19.5.tgz#ef7241f9b98e08964f8b4051125329598f90e3ec"
+  integrity sha1-73JB+bmOCJZPi0BRElMpWY+Q4+w=
   dependencies:
     "@sindresorhus/slugify" "0.9.1"
     classnames "^2.2.6"
@@ -9380,14 +9293,14 @@ strapi-plugin-content-manager@3.0.0-beta.19.3:
     redux-immutable "^4.0.0"
     reselect "^3.0.1"
     showdown "^1.9.0"
-    strapi-helper-plugin "3.0.0-beta.19.3"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-helper-plugin "3.0.0-beta.19.5"
+    strapi-utils "3.0.0-beta.19.5"
     yup "^0.27.0"
 
-strapi-plugin-content-type-builder@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-plugin-content-type-builder/download/strapi-plugin-content-type-builder-3.0.0-beta.19.3.tgz#d28f5c58fddf1a29e3a3bb7ccae7ce5ee104b097"
-  integrity sha1-0o9cWP3fGinjo7t8yufOXuEEsJc=
+strapi-plugin-content-type-builder@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-plugin-content-type-builder/download/strapi-plugin-content-type-builder-3.0.0-beta.19.5.tgz#54b6a394afb39d5fd024b446930ad01816dfa280"
+  integrity sha1-VLajlK+znV/QJLRGkwrQGBbfooA=
   dependencies:
     "@sindresorhus/slugify" "0.9.1"
     classnames "^2.2.6"
@@ -9407,25 +9320,25 @@ strapi-plugin-content-type-builder@3.0.0-beta.19.3:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^3.0.1"
-    strapi-generate "3.0.0-beta.19.3"
-    strapi-generate-api "3.0.0-beta.19.3"
-    strapi-helper-plugin "3.0.0-beta.19.3"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-generate "3.0.0-beta.19.5"
+    strapi-generate-api "3.0.0-beta.19.5"
+    strapi-helper-plugin "3.0.0-beta.19.5"
+    strapi-utils "3.0.0-beta.19.5"
     yup "^0.27.0"
 
-strapi-plugin-email@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-plugin-email/download/strapi-plugin-email-3.0.0-beta.19.3.tgz#87890a4e193eb987efd9b386407421d958a500af"
-  integrity sha1-h4kKThk+uYfv2bOGQHQh2VilAK8=
+strapi-plugin-email@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-plugin-email/download/strapi-plugin-email-3.0.0-beta.19.5.tgz#46cca1bfbdb1e6e8936286444d75ea88d4e76f2d"
+  integrity sha1-Rsyhv72x5uiTYoZETXXqiNTnby0=
   dependencies:
     lodash "^4.17.11"
-    strapi-provider-email-sendmail "3.0.0-beta.19.3"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-provider-email-sendmail "3.0.0-beta.19.5"
+    strapi-utils "3.0.0-beta.19.5"
 
-strapi-plugin-upload@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-plugin-upload/download/strapi-plugin-upload-3.0.0-beta.19.3.tgz#07b3258c6818de5f4df0f73edb8d440cf182a65e"
-  integrity sha1-B7MljGgY3l9N8Pc+241EDPGCpl4=
+strapi-plugin-upload@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-plugin-upload/download/strapi-plugin-upload-3.0.0-beta.19.5.tgz#84f21c81fbf48b4f6c7a3cce206c6119d595736e"
+  integrity sha1-hPIcgfv0i09sejzOIGxhGdWVc24=
   dependencies:
     immutable "^3.8.2"
     invariant "^2.2.1"
@@ -9439,16 +9352,16 @@ strapi-plugin-upload@3.0.0-beta.19.3:
     react-router-dom "^5.0.0"
     react-transition-group "^2.5.0"
     reactstrap "^5.0.0"
-    strapi-helper-plugin "3.0.0-beta.19.3"
-    strapi-provider-upload-local "3.0.0-beta.19.3"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-helper-plugin "3.0.0-beta.19.5"
+    strapi-provider-upload-local "3.0.0-beta.19.5"
+    strapi-utils "3.0.0-beta.19.5"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
-strapi-plugin-users-permissions@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-plugin-users-permissions/download/strapi-plugin-users-permissions-3.0.0-beta.19.3.tgz#fb0b4454e03dcb88da66535c50048f2088e59eff"
-  integrity sha1-+wtEVOA9y4jaZlNcUASPIIjlnv8=
+strapi-plugin-users-permissions@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-plugin-users-permissions/download/strapi-plugin-users-permissions-3.0.0-beta.19.5.tgz#47f681929ce456794b2d74ee8c6f3cdbecf7715d"
+  integrity sha1-R/aBkpzkVnlLLXTujG882+z3cV0=
   dependencies:
     "@purest/providers" "^1.0.1"
     bcryptjs "^2.4.3"
@@ -9470,47 +9383,22 @@ strapi-plugin-users-permissions@3.0.0-beta.19.3:
     reactstrap "^5.0.0"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.0.0-beta.19.3"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-helper-plugin "3.0.0-beta.19.5"
+    strapi-utils "3.0.0-beta.19.5"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-provider-email-sendmail/download/strapi-provider-email-sendmail-3.0.0-beta.19.3.tgz#615fbe932d71431cb0be9fbe458188186eebda73"
-  integrity sha1-YV++ky1xQxywvp++RYGIGG7r2nM=
+strapi-provider-email-sendmail@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-provider-email-sendmail/download/strapi-provider-email-sendmail-3.0.0-beta.19.5.tgz#97449600897f1973ae21be9110f7fafc036e20fb"
+  integrity sha1-l0SWAIl/GXOuIb6REPf6/ANuIPs=
   dependencies:
     lodash "^4.17.11"
     sendmail "^1.2.0"
 
-strapi-provider-upload-local@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-provider-upload-local/download/strapi-provider-upload-local-3.0.0-beta.19.3.tgz#9af19fb31240111139dfe0f8a686c2fc7fe2f7bc"
-  integrity sha1-mvGfsxJAERE53+D4pobC/H/i97w=
-
-strapi-utils@3.0.0-beta.17.8:
-  version "3.0.0-beta.17.8"
-  resolved "https://registry.npm.taobao.org/strapi-utils/download/strapi-utils-3.0.0-beta.17.8.tgz#2466c211254233366f108bb12be3e090514660ea"
-  integrity sha1-JGbCESVCMzZvEIuxK+PgkFFGYOo=
-  dependencies:
-    commander "^2.20.0"
-    joi-json "^2.1.0"
-    knex "^0.16.5"
-    lodash "^4.17.11"
-    pino "^4.7.1"
-    pluralize "^7.0.0"
-    shelljs "^0.8.3"
-
-strapi-utils@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi-utils/download/strapi-utils-3.0.0-beta.19.3.tgz#fe22cd42fe7fc2e82be28d107d3afec88a310e39"
-  integrity sha1-/iLNQv5/wugr4o0QfTr+yIoxDjk=
-  dependencies:
-    date-fns "^2.8.1"
-    lodash "4.17.11"
-    pino "^4.7.1"
-    pluralize "^7.0.0"
-    shelljs "^0.8.3"
-    yup "0.28.1"
+strapi-provider-upload-local@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi-provider-upload-local/download/strapi-provider-upload-local-3.0.0-beta.19.5.tgz#ee2f417b35258584ee1322cedde349b29c18bbc0"
+  integrity sha1-7i9BezUlhYTuEyLO3eNJspwYu8A=
 
 strapi-utils@3.0.0-beta.19.5:
   version "3.0.0-beta.19.5"
@@ -9525,10 +9413,10 @@ strapi-utils@3.0.0-beta.19.5:
     shelljs "^0.8.3"
     yup "0.28.1"
 
-strapi@3.0.0-beta.19.3:
-  version "3.0.0-beta.19.3"
-  resolved "https://registry.npm.taobao.org/strapi/download/strapi-3.0.0-beta.19.3.tgz#45a7997d7881f9f05c8c050d2a53eb99b2a58f22"
-  integrity sha1-RaeZfXiB+fBcjAUNKlPrmbKljyI=
+strapi@3.0.0-beta.19.5:
+  version "3.0.0-beta.19.5"
+  resolved "https://registry.npm.taobao.org/strapi/download/strapi-3.0.0-beta.19.5.tgz#c3db3f2b76331e8b2fdd0d3f9bddea9047c6be52"
+  integrity sha1-w9s/K3YzHosv3Q0/m93qkEfGvlI=
   dependencies:
     "@koa/cors" "^3.0.0"
     async "^2.1.2"
@@ -9568,16 +9456,16 @@ strapi@3.0.0-beta.19.3:
     resolve-cwd "^3.0.0"
     rimraf "^2.6.2"
     shelljs "^0.8.3"
-    strapi-database "3.0.0-beta.19.3"
-    strapi-generate "3.0.0-beta.19.3"
-    strapi-generate-api "3.0.0-beta.19.3"
-    strapi-generate-controller "3.0.0-beta.19.3"
-    strapi-generate-model "3.0.0-beta.19.3"
-    strapi-generate-new "3.0.0-beta.19.3"
-    strapi-generate-plugin "3.0.0-beta.19.3"
-    strapi-generate-policy "3.0.0-beta.19.3"
-    strapi-generate-service "3.0.0-beta.19.3"
-    strapi-utils "3.0.0-beta.19.3"
+    strapi-database "3.0.0-beta.19.5"
+    strapi-generate "3.0.0-beta.19.5"
+    strapi-generate-api "3.0.0-beta.19.5"
+    strapi-generate-controller "3.0.0-beta.19.5"
+    strapi-generate-model "3.0.0-beta.19.5"
+    strapi-generate-new "3.0.0-beta.19.5"
+    strapi-generate-plugin "3.0.0-beta.19.5"
+    strapi-generate-policy "3.0.0-beta.19.5"
+    strapi-generate-service "3.0.0-beta.19.5"
+    strapi-utils "3.0.0-beta.19.5"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
@@ -9857,11 +9745,6 @@ tapable@^1.0.0, tapable@^1.1.3:
   resolved "https://registry.npm.taobao.org/tapable/download/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
   integrity sha1-ofzMBrWNth/XpF2i2kT186Pme6I=
 
-tarn@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.npm.taobao.org/tarn/download/tarn-1.1.5.tgz#7be88622e951738b9fa3fb77477309242cdddc2d"
-  integrity sha1-e+iGIulRc4ufo/t3R3MJJCzd3C0=
-
 tarn@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/tarn/download/tarn-2.0.0.tgz#c68499f69881f99ae955b4317ca7d212d942fdee"
@@ -9927,13 +9810,6 @@ thunky@^1.0.2:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/thunky/download/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha1-Wrr3FKlAXbBQRzK7zNLO3Z75U30=
-
-tildify@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npm.taobao.org/tildify/download/tildify-1.2.0.tgz#dcec03f55dca9b7aa3e5b04f21817eb56e63588a"
-  integrity sha1-3OwD9V3Km3qj5bBPIYF+tW5jWIo=
-  dependencies:
-    os-homedir "^1.0.0"
 
 tildify@2.0.0:
   version "2.0.0"
@@ -10312,7 +10188,7 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.npm.taobao.org/v8-compile-cache/download/v8-compile-cache-2.1.0.tgz#e14de37b31a6d194f5690d67efc4e7f6fc6ab30e"
   integrity sha1-4U3jezGm0ZT1aQ1n78Tn9vxqsw4=
 
-v8flags@^3.1.2, v8flags@^3.1.3:
+v8flags@^3.1.3:
   version "3.1.3"
   resolved "https://registry.npm.taobao.org/v8flags/download/v8flags-3.1.3.tgz#fc9dc23521ca20c5433f81cc4eb9b3033bb105d8"
   integrity sha1-/J3CNSHKIMVDP4HMTrmzAzuxBdg=
@@ -10328,11 +10204,6 @@ value-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/value-equal/download/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
   integrity sha1-Hgt5THNMXAyt4XnEN9NW2TGjTWw=
-
-vandium-utils@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.npm.taobao.org/vandium-utils/download/vandium-utils-1.2.0.tgz#44735de4b7641a05de59ebe945f174e582db4f59"
-  integrity sha1-RHNd5LdkGgXeWevpRfF05YLbT1k=
 
 vary@^1.1.2, vary@~1.1.2:
   version "1.1.2"
