@@ -60,7 +60,7 @@
     "deploy": "sh scripts/docker_push.sh",
     "deploy:coding": "sh scripts/deploy_to_coding.sh",
     "strapi": "strapi",
-    "audit:ci": "audit-ci -m -a 1065 -a 1469",
+    "audit:ci": "audit-ci -m -a 1065 -a 1469 -a 1486",
     "commit": "git-cz",
     "test": "echo 'no test'"
   }
